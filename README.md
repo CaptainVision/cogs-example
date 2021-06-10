@@ -1,2 +1,2 @@
 # cogs-example
-A simple example of using cogs.
+Ein Beispiel wie du Cogs für deinen Bot benutzt.
