@@ -8,10 +8,6 @@ class Commands(commands.Cog):
     @commands.command()
     async def hallo(self, ctx):
         await ctx.send("Hallo")
-        
-
-
-#######################################################
 
 
 def setup(bot):
