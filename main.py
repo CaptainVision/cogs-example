@@ -5,24 +5,18 @@ import discord
 from discord.ext import commands
 
 
-TOKEN = ''  # Dein Token hier
+TOKEN = ''  # Your Bots Token
 
-bot = commands.Bot(command_prefix='')  # Dein Prefix hier
+bot = commands.Bot(command_prefix='')  # Your Prefix
 
-extensions = ['cogs.command']
+extensions = ['cogs.command']  # Your cogs
 
 
 @bot.event
 async def on_ready():
-    print('--------------------------------------')
-    print('Bot is ready.')
-    print('Eingeloggt als')
-    print(bot.user.name)
-    print(bot.user.id)
-    print('--------------------------------------')
+    print(f"Logged in as {bot.user} (ID: {bot.user.id}")
+    
 
-
-#######################################################################
 
 if __name__ == '__main__':
     for extension in extensions:
